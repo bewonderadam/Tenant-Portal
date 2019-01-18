@@ -14,3 +14,5 @@ Once the above dependencies are installed and activated you will be able to get 
 2) You will then need to create the "Tenant Portal Categories" taxonomy within CPT. You can either do this manually by using the CPT plugin, or copy and paste the code within the functions.php file, in to your themes function.php file.
 
 3) Now you need to import the custom fields for your "Tenant Portal" into your WordPress install. You can do this by uploading the ACF export file into the "Tools" page of ACF. 
+
+4) You now need to create an archive-tenant_portal.php file within your theme. You can use the code in archive-tenant_portal.php as a base for the functionality however, you will need to implement your themes structure and styling. 
