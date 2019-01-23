@@ -1,3 +1,4 @@
+<?php get_header(); ?>
 <?php if( is_user_logged_in() ) : ?>
   <?php $terms = get_terms( array(
     'taxonomy' => 'tenant_portal_categories',
@@ -61,3 +62,4 @@
   );
   wp_login_form($args); ?>
 <?php endif; ?>
+<?php get_footer(); ?>
